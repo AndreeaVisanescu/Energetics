@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.body-wrapper {
+    background-image: url(./assets/bg.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.navigation-menu {
+    display: inline-flex;
+    width: 400px;
+    height: fit-content;
+    justify-content: space-between;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    outline-style: none;
+    cursor: pointer;
+}
+.navigation-menu a:hover {
+    color:#4db5fe;
+}
+.navigation-menu>a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #756f7b;
+    font-family: "News Cycle";
+    letter-spacing: -1px;
+}
+.navigation-menu button {
+    text-decoration: none;
+    font-size: 15px;
+    color: #756f7b;
+    background-color: #ffffff;
+    border-radius: 10% / 50%;
+    border-color: #756f7b;
+    padding: 0px 30px;
+    font-family: "News Cycle";
+    letter-spacing: -1px;
+    height: 25px;
+}
+.navigation-menu button:hover {
+    color: #fff;
+    background-image: linear-gradient(to right, #52d2ff 50%, #4db5fe);
+}
+.title {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    color: #3d7ffa;
+    font-family: "Roboto";
+}
+.title>h1 {
+    font-size: 50px;
+    font-weight: 20%;
+}
+.title>h2 {
+    font-size: 35px;
+    font-family: "Open Sans";
+    font-weight:500;
+    letter-spacing: 7px;
+    padding-bottom: 30px;
+}
+.decorative-border {
+    border-top: 1px solid #3d7ffa;
+    width: 250px;
+}
+.text-wrapper {
+    width: 400px;
+    color: #4898d1;
+    font-size: 14px;
+    font-family: "Open Sans","News Cycle";
+    letter-spacing: -1px;
+    font-weight: bolder;
+    font-weight: 500;
+    line-height: 150%;
+    padding-top: 50px;
+    padding-top: 20px;
+}
+.cta-button {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    height: 70px;
+    width: 250px;   
+}
+.cta-button>button {
+    height: 100%;
+    width: 100%;
+    border-radius: 5% / 20%;
+    background-image: linear-gradient(to right, #52d2ff 50%, #4db5fe);
+    border:none;
+    color: #ffffff;
+    font-size: 23px;
+    letter-spacing: -2px;
+    font-family: "Open Sans";
+}
