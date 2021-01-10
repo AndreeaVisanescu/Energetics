@@ -44,6 +44,8 @@
     font-family: "News Cycle";
     letter-spacing: -1px;
     height: 25px;
+    /* cea mai simpla metoda de aliniere verticala, mai ales cand e vorba doar de text */
+    line-height: 20px;
 }
 .navigation-menu button:hover {
     color: #fff;
